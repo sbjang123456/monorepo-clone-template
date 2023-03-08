@@ -28,9 +28,9 @@
     "typecheck": "tsc --project ./tsconfig.json --noEmit"
   },
   "devDependencies": {
+    "@sbjang123456/eslint-config-bases": "workspace:^",
     "@types/jest": "29.4.2",
     "@types/node": "18.15.3",
-    "@sbjang123456/eslint-config-bases": "workspace:^",
     "cross-env": "7.0.3",
     "eslint": "8.36.0",
     "prettier": "2.8.4",
