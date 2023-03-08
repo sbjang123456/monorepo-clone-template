@@ -1,0 +1,117 @@
+{
+  "name": "@sbjang123456/eslint-config-bases",
+  "version": "0.0.0",
+  "private": true,
+  "type": "commonjs",
+  "main": "./src/index.js",
+  "exports": {
+    ".": {
+      "require": "./src/index.js"
+    },
+    "./patch/modern-module-resolution": {
+      "require": "./src/patch/modern-module-resolution.js"
+    },
+    "./helpers": {
+      "require": "./src/helpers/index.js"
+    },
+    "./jest": {
+      "require": "./src/bases/jest.js"
+    },
+    "./playwright": {
+      "require": "./src/bases/playwright.js"
+    },
+    "./prettier": {
+      "require": "./src/bases/prettier.js"
+    },
+    "./react": {
+      "require": "./src/bases/react.js"
+    },
+    "./rtl": {
+      "require": "./src/bases/rtl.js"
+    },
+    "./regexp": {
+      "require": "./src/bases/regexp.js"
+    },
+    "./storybook": {
+      "require": "./src/bases/storybook.js"
+    },
+    "./tailwind": {
+      "require": "./src/bases/tailwind.js"
+    },
+    "./typescript": {
+      "require": "./src/bases/typescript.js"
+    }
+  },
+  "author": {
+    "name": "sbjang",
+    "url": "https://github.com/sbjang123456"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/sbjang123456/monorepo-clone-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sbjang123456/monorepo-clone-template",
+    "directory": "packages/eslint-config-bases"
+  },
+  "scripts": {
+    "clean": "rimraf ./dist ./coverage ./tsconfig.tsbuildinfo",
+    "fix-all-files": "eslint  --ext .ts,.tsx,.js,.jsx --fix",
+    "lint": "eslint  --ext .ts,.js,.cjs,.mjs --cache --cache-location ../../.cache/eslint/eslint-config-bases.eslintcache",
+    "typecheck": "tsc --project tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jest": "^27.2.1",
+    "eslint-plugin-jest-formatting": "^3.1.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-playwright": "^0.12.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-regexp": "^1.12.0",
+    "eslint-plugin-storybook": "^0.6.11",
+    "eslint-plugin-tailwindcss": "^3.10.1",
+    "eslint-plugin-testing-library": "^5.10.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "5.16.5",
+    "@testing-library/react": "14.0.0",
+    "@types/jest": "29.4.2",
+    "@types/node": "18.15.3",
+    "@types/prettier": "2.7.2",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "eslint": "8.36.0",
+    "prettier": "2.8.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "rimraf": "4.4.0",
+    "typescript": "4.9.5"
+  },
+  "peerDependencies": {
+    "eslint": "^8.22.0",
+    "prettier": "^2.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.5"
+  },
+  "peerDependenciesMeta": {
+    "prettier": {
+      "optional": true
+    },
+    "react": {
+      "optional": true
+    },
+    "react-dom": {
+      "optional": true
+    },
+    "typescript": {
+      "optional": true
+    }
+  }
+}

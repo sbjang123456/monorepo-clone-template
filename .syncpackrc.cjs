@@ -26,7 +26,7 @@ module.exports = {
       "label": "publishable-packages",
       "dependencyTypes": ["peer", "prod"],
       "dependencies": ["**"],
-      "packages": ["@your-org/*"]
+      "packages": ["@sbjang123456/*"]
     },
   ],
   "sortAz": [

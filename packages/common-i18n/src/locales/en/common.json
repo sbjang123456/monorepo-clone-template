@@ -1,0 +1,8 @@
+{
+  "actions": {
+    "save": "Save",
+    "update": "Update",
+    "delete": "Delete",
+    "cancel": "Cancel"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "actions": {
+    "save": "저장",
+    "update": "수정",
+    "delete": "삭제",
+    "cancel": "취소"
+  }
+}
