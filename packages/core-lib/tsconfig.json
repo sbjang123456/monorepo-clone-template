@@ -8,7 +8,10 @@
     "module": "esnext",
     "jsx": "react-jsx",
     "noEmit": false,
-    "incremental": true
+    "incremental": true,
+    "paths": {
+      "@/test-utils": ["../config/test/test-utils"]
+    }
   },
   "exclude": ["**/node_modules", "**/.*/", "dist", "build"]
 }

@@ -48,6 +48,8 @@
     "packages:lint": "yarn workspaces foreach -ptv --include '@sbjang123456/*' run lint",
     "packages:test:unit": "yarn workspaces foreach -ptv --include '@sbjang123456/*' run test-unit",
     "packages:typecheck": "yarn workspaces foreach -ptv --include '@sbjang123456/*' run typecheck",
+    "dedupe:check": "yarn dedupe --check",
+    "dedupe:strategy": "yarn dedupe --strategy highest",
     "postinstall": "is-ci || yarn husky install"
   },
   "dependencies": {
