@@ -33,7 +33,7 @@
     "@types/node": "18.15.11",
     "cross-env": "7.0.3",
     "eslint": "8.36.0",
-    "prettier": "2.8.4",
+    "prettier": "2.8.7",
     "rimraf": "4.4.0",
     "typescript": "4.9.5"
   }
