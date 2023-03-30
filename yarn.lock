@@ -3370,7 +3370,7 @@ __metadata:
     "@types/node": 18.15.3
     cross-env: 7.0.3
     eslint: 8.36.0
-    prettier: 2.8.4
+    prettier: 2.8.7
     rimraf: 4.4.0
     typescript: 4.9.5
   languageName: unknown
@@ -3396,7 +3396,7 @@ __metadata:
     jest-environment-jsdom: 29.5.0
     microbundle: 0.15.1
     npm-run-all: 4.1.5
-    prettier: 2.8.4
+    prettier: 2.8.7
     react: 18.2.0
     react-dom: 18.2.0
     rimraf: 4.4.0
@@ -3440,7 +3440,7 @@ __metadata:
     eslint-plugin-storybook: ^0.6.11
     eslint-plugin-tailwindcss: ^3.10.1
     eslint-plugin-testing-library: ^5.10.2
-    prettier: 2.8.4
+    prettier: 2.8.7
     react: 18.2.0
     react-dom: 18.2.0
     rimraf: 4.4.0
@@ -3503,7 +3503,7 @@ __metadata:
     npm-run-all: 4.1.5
     postcss: 8.4.21
     postcss-flexbugs-fixes: 5.0.2
-    prettier: 2.8.4
+    prettier: 2.8.7
     react: 18.2.0
     react-dom: 18.2.0
     require-from-string: 2.0.2
@@ -15184,7 +15184,7 @@ __metadata:
     is-ci: 3.0.1
     lint-staged: 13.2.0
     npm-run-all: 4.1.5
-    prettier: 2.8.4
+    prettier: 2.8.7
     rimraf: 4.4.0
     shell-quote: 1.8.0
     syncpack: 9.8.4
@@ -17023,12 +17023,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.8.4, prettier@npm:^2.7.1":
-  version: 2.8.4
-  resolution: "prettier@npm:2.8.4"
+"prettier@npm:2.8.7, prettier@npm:^2.7.1":
+  version: 2.8.7
+  resolution: "prettier@npm:2.8.7"
   bin:
     prettier: bin-prettier.js
-  checksum: c173064bf3df57b6d93d19aa98753b9b9dd7657212e33b41ada8e2e9f9884066bb9ca0b4005b89b3ab137efffdf8fbe0b462785aba20364798ff4303aadda57e
+  checksum: fdc8f2616f099f5f0d685907f4449a70595a0fc1d081a88919604375989e0d5e9168d6121d8cc6861f21990b31665828e00472544d785d5940ea08a17660c3a6
   languageName: node
   linkType: hard
 
