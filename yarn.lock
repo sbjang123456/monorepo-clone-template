@@ -3371,7 +3371,7 @@ __metadata:
     cross-env: 7.0.3
     eslint: 8.37.0
     prettier: 2.8.7
-    rimraf: 4.4.0
+    rimraf: 4.4.1
     typescript: 4.9.5
   languageName: unknown
   linkType: soft
@@ -3400,7 +3400,7 @@ __metadata:
     prettier: 2.8.7
     react: 18.2.0
     react-dom: 18.2.0
-    rimraf: 4.4.0
+    rimraf: 4.4.1
     ts-jest: 29.0.5
     typescript: 4.9.5
     vite: 4.1.4
@@ -3444,7 +3444,7 @@ __metadata:
     prettier: 2.8.7
     react: 18.2.0
     react-dom: 18.2.0
-    rimraf: 4.4.0
+    rimraf: 4.4.1
     typescript: 4.9.5
   peerDependencies:
     eslint: ^8.22.0
@@ -3508,7 +3508,7 @@ __metadata:
     react: 18.2.0
     react-dom: 18.2.0
     require-from-string: 2.0.2
-    rimraf: 4.4.0
+    rimraf: 4.4.1
     rooks: 7.10.0
     sirv: 2.0.2
     sirv-cli: 2.0.2
@@ -15172,7 +15172,7 @@ __metadata:
     lint-staged: 13.2.0
     npm-run-all: 4.1.5
     prettier: 2.8.7
-    rimraf: 4.4.0
+    rimraf: 4.4.1
     shell-quote: 1.8.0
     syncpack: 9.8.4
     typescript: 4.9.5
@@ -18155,14 +18155,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rimraf@npm:4.4.0":
-  version: 4.4.0
-  resolution: "rimraf@npm:4.4.0"
+"rimraf@npm:4.4.1":
+  version: 4.4.1
+  resolution: "rimraf@npm:4.4.1"
   dependencies:
     glob: ^9.2.0
   bin:
     rimraf: dist/cjs/src/bin.js
-  checksum: 0cedaf9d138589d1bb0ab851f05804c6d30827aa66563472b04ab76245f83537e23e7b94f1f79ea6c368c0d84a18fcde6a756fca3a44c967e08792671b3a0a6e
+  checksum: b786adc02651e2e24bbedb04bbdea80652fc9612632931ff2d9f898c5e4708fe30956186597373c568bd5230a4dc2fadfc816ccacba8a1daded3a006a6b74f1a
   languageName: node
   linkType: hard
 
