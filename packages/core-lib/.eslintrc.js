@@ -1,4 +1,3 @@
-
 // Workaround for https://github.com/eslint/eslint/issues/3458 (re-export of @rushstack/eslint-patch)
 require('@sbjang123456/eslint-config-bases/patch/modern-module-resolution');
 
