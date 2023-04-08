@@ -13815,7 +13815,7 @@ __metadata:
     npm-run-all: 4.1.5
     prettier: 2.8.7
     rimraf: 4.4.1
-    shell-quote: 1.8.0
+    shell-quote: 1.8.1
     syncpack: 9.8.4
     typescript: 5.0.3
   languageName: unknown
@@ -16989,10 +16989,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shell-quote@npm:1.8.0, shell-quote@npm:^1.6.1":
-  version: 1.8.0
-  resolution: "shell-quote@npm:1.8.0"
-  checksum: 6ef7c5e308b9c77eedded882653a132214fa98b4a1512bb507588cf6cd2fc78bfee73e945d0c3211af028a1eabe09c6a19b96edd8977dc149810797e93809749
+"shell-quote@npm:1.8.1, shell-quote@npm:^1.6.1":
+  version: 1.8.1
+  resolution: "shell-quote@npm:1.8.1"
+  checksum: 5f01201f4ef504d4c6a9d0d283fa17075f6770bfbe4c5850b074974c68062f37929ca61700d95ad2ac8822e14e8c4b990ca0e6e9272e64befd74ce5e19f0736b
   languageName: node
   linkType: hard
 
