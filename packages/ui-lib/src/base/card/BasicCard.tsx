@@ -10,7 +10,7 @@ type Props = {
 
 export const BasicCard: FC<Props> = (props) => {
   const { image, title, description } = props;
-  const imgSrc = image;
+  const imgSrc = image ? image : undefined;
   return (
     <S.Ctn>
       {imgSrc !== undefined ? (

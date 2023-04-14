@@ -1,11 +1,11 @@
 // @ts-check
-const { pathsToModuleNameMapper } = require('ts-jest');
+// const { pathsToModuleNameMapper } = require('ts-jest');
 
 const tsConfigFile = './tsconfig.jest.json';
 const { getJestCachePath } = require('../../cache.config');
 
 const packageJson = require('./package.json');
-const { compilerOptions: baseTsConfig } = require('./tsconfig.json');
+// const { compilerOptions: baseTsConfig } = require('./tsconfig.json');
 
 // // ./tsconfig.json 에서 자동적으로 tsconfig 의 경로를 가져옴
 // // @link https://kulshekhar.github.io/ts-jest/docs/paths-mapping

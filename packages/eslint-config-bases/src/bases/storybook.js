@@ -17,6 +17,24 @@ module.exports = {
       // Perf: 성능 향상을 위해 storybook(stories) 파일에 대해서만 활성화
       files: storybookPatterns.files,
       extends: ['plugin:storybook/recommended'],
+      rules: {
+        '@typescript-eslint/naming-convention': [
+          'warn',
+          {
+            selector: 'variable',
+            format: ['camelCase', 'PascalCase'],
+          },
+          {
+            selector: ['function'],
+            format: ['camelCase', 'PascalCase'],
+          },
+          {
+            selector: 'parameter',
+            format: ['camelCase', 'PascalCase'],
+            leadingUnderscore: 'allow',
+          },
+        ],
+      },
     },
   ],
 };

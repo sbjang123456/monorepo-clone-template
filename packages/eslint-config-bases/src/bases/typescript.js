@@ -30,7 +30,7 @@ module.exports = {
   ],
   rules: {
     // https://medium.com/@steven-lemon182/are-typescript-barrel-files-an-anti-pattern-72a713004250
-    'import/no-cycle': 2,
+    // 'import/no-cycle': 2,
     // 'import/no-duplicates' 사용.
     'no-duplicate-imports': 'off',
     'spaced-comment': [
@@ -133,12 +133,7 @@ module.exports = {
       },
       {
         selector: 'objectLiteralProperty',
-        format: [
-          'camelCase',
-          'snake_case',
-          'UPPER_CASE',
-          'PascalCase',
-        ],
+        format: ['camelCase', 'snake_case', 'UPPER_CASE', 'PascalCase'],
         leadingUnderscore: 'allowSingleOrDouble',
         trailingUnderscore: 'allowSingleOrDouble',
       },
