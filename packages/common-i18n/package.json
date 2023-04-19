@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@sbjang123456/eslint-config-bases": "workspace:^",
-    "@types/jest": "29.5.0",
+    "@types/jest": "29.5.1",
     "@types/node": "18.15.11",
     "cross-env": "7.0.3",
     "eslint": "8.38.0",
