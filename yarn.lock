@@ -2986,8 +2986,8 @@ __metadata:
     "@testing-library/user-event": 14.4.3
     "@types/jest": 29.5.0
     "@types/node": 18.15.11
-    "@types/react": 18.0.37
-    "@types/react-dom": 18.0.11
+    "@types/react": 18.2.6
+    "@types/react-dom": 18.2.4
     "@vitejs/plugin-react": 3.1.0
     "@vitest/coverage-istanbul": 0.30.1
     "@vitest/ui": 0.30.1
@@ -3024,8 +3024,8 @@ __metadata:
     "@types/jest": 29.5.0
     "@types/node": 18.15.11
     "@types/prettier": 2.7.2
-    "@types/react": 18.0.37
-    "@types/react-dom": 18.0.11
+    "@types/react": 18.2.6
+    "@types/react-dom": 18.2.4
     "@typescript-eslint/eslint-plugin": ^5.57.1
     "@typescript-eslint/parser": ^5.57.1
     eslint: 8.38.0
@@ -3086,8 +3086,8 @@ __metadata:
     "@testing-library/react": 14.0.0
     "@types/jest": 29.5.0
     "@types/node": 18.15.11
-    "@types/react": 18.0.37
-    "@types/react-dom": 18.0.11
+    "@types/react": 18.2.6
+    "@types/react-dom": 18.2.4
     autoprefixer: 10.4.14
     cross-env: 7.0.3
     eslint: 8.38.0
@@ -4631,23 +4631,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:18.0.11, @types/react-dom@npm:^18.0.0":
-  version: 18.0.11
-  resolution: "@types/react-dom@npm:18.0.11"
+"@types/react-dom@npm:18.2.4, @types/react-dom@npm:^18.0.0":
+  version: 18.2.4
+  resolution: "@types/react-dom@npm:18.2.4"
   dependencies:
     "@types/react": "*"
-  checksum: 579691e4d5ec09688087568037c35edf8cfb1ab3e07f6c60029280733ee7b5c06d66df6fcc90786702c93ac8cb13bc7ff16c79ddfc75d082938fbaa36e1cdbf4
+  checksum: 8301f35cf1cbfec8c723e9477aecf87774e3c168bd457d353b23c45064737213d3e8008b067c6767b7b08e4f2b3823ee239242a6c225fc91e7f8725ef8734124
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.0.37, @types/react@npm:>=16":
-  version: 18.0.37
-  resolution: "@types/react@npm:18.0.37"
+"@types/react@npm:*, @types/react@npm:18.2.6, @types/react@npm:>=16":
+  version: 18.2.6
+  resolution: "@types/react@npm:18.2.6"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 6a6c8feada1d6aa2d01a38c44ce09598d93688e97ed21511d5e34fd7fe748b760dd957a5ac0725f5643d8d7e1a0ade6478ebd4be96c9605c5d6816b17ad35d2d
+  checksum: dea9d232d8df7ac357367a69dcb557711ab3d5501807ffa77cebeee73d49ee94d095f298e36853c63ed47cce097eee4c7eae2aaa8c02fac3f0171ec1b523a819
   languageName: node
   linkType: hard
 
