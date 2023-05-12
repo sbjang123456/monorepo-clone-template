@@ -30,7 +30,7 @@
   "devDependencies": {
     "@sbjang123456/eslint-config-bases": "workspace:^",
     "@types/jest": "29.5.1",
-    "@types/node": "18.15.11",
+    "@types/node": "18.16.8",
     "cross-env": "7.0.3",
     "eslint": "8.38.0",
     "prettier": "2.8.8",
