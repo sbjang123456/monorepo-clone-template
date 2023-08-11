@@ -3101,7 +3101,7 @@ __metadata:
     require-from-string: 2.0.2
     rimraf: 5.0.0
     rooks: 7.14.1
-    sirv: 2.0.2
+    sirv: 2.0.3
     sirv-cli: 2.0.2
     storybook: 7.0.6
     tailwindcss: 3.3.1
@@ -14535,18 +14535,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sirv@npm:2.0.2":
-  version: 2.0.2
-  resolution: "sirv@npm:2.0.2"
-  dependencies:
-    "@polka/url": ^1.0.0-next.20
-    mrmime: ^1.0.0
-    totalist: ^3.0.0
-  checksum: 6982f8ecee9392d246d7eeea8144e50334fe1b46a4fa942995a844ea88c2d518b17cce781bb09926c9a5692a7002a207d18dfd67af2aa538a15e733dc2042298
-  languageName: node
-  linkType: hard
-
-"sirv@npm:^2.0.0, sirv@npm:^2.0.3":
+"sirv@npm:2.0.3, sirv@npm:^2.0.0, sirv@npm:^2.0.3":
   version: 2.0.3
   resolution: "sirv@npm:2.0.3"
   dependencies:
