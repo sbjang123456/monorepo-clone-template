@@ -61,7 +61,7 @@
     "@commitlint/cli": "17.7.1",
     "@commitlint/config-conventional": "17.7.0",
     "@sbjang123456/eslint-config-bases": "workspace:^",
-    "@types/prettier": "2.7.2",
+    "@types/prettier": "2.7.3",
     "@types/shell-quote": "1.7.1",
     "eslint": "8.40.0",
     "husky": "8.0.3",
