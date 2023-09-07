@@ -30,11 +30,11 @@
   "devDependencies": {
     "@sbjang123456/eslint-config-bases": "workspace:^",
     "@types/jest": "29.5.4",
-    "@types/node": "18.17.14",
+    "@types/node": "20.5.9",
     "cross-env": "7.0.3",
-    "eslint": "8.40.0",
-    "prettier": "2.8.8",
+    "eslint": "8.48.0",
+    "prettier": "3.0.3",
     "rimraf": "5.0.1",
-    "typescript": "5.0.4"
+    "typescript": "5.2.2"
   }
 }

@@ -9,7 +9,20 @@
     "jsx": "react-jsx",
     "jsxImportSource": "@emotion/react",
     "noEmit": false,
-    "incremental": true
+    "incremental": true,
+    "paths": {},
+    "types": ["@testing-library/jest-dom/vitest"]
   },
-  "exclude": ["**/node_modules", "**/.*/", "dist", "build"]
+  "exclude": ["**/node_modules", "**/.*/", "dist"],
+  "include": [
+    ".eslintrc.*",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.mts",
+    "**/*.js",
+    "**/*.cjs",
+    "**/*.mjs",
+    "**/*.jsx",
+    "**/*.json"
+  ]
 }

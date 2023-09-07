@@ -27,11 +27,16 @@
   ],
   "extensions": {
     "recommendations": [
+      "folke.vscode-monorepo-workspace",
       "dbaeumer.vscode-eslint",
       "esbenp.prettier-vscode",
+      "ZixuanChen.vitest-explorer",
+      "Orta.vscode-jest"
     ]
   },
   "settings": {
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.codeActionsOnSave": {
@@ -40,7 +45,7 @@
     // Disable vscode formatting for js,jsx,ts,tsx files
     // to allow dbaeumer.vscode-eslint to format them
     "[javascript]": {
-      "editor.formatOnSave": false,
+      "editor.formatOnSave": false
     },
     "eslint.alwaysShowStatus": true,
     // https://github.com/Microsoft/vscode-eslint#mono-repository-setup
@@ -50,6 +55,13 @@
       "./packages/core-lib",
       "./packages/eslint-config-bases",
       "./packages/ui-lib"
+    ],
+    "jest.disabledWorkspaceFolders": [
+      "nextjs-app",
+      "eslint-config-bases",
+      "common-i18n",
+      "ui-lib",
+      "core-lib",
     ]
   }
 }
