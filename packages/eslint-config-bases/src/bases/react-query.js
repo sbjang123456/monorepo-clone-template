@@ -12,21 +12,14 @@ const reactPatterns = {
  */
 
 module.exports = {
-  env: {
-    browser: true,
-    es6: true,
-    node: true,
-  },
   overrides: [
     {
       files: [...reactPatterns.files],
       extends: [
-        // @see https://github.com/francoismassart/eslint-plugin-tailwindcss,
-        'plugin:tailwindcss/recommended',
+        // @see https://tanstack.com/query/v4/docs/react/eslint/eslint-plugin-query
+        'plugin:@tanstack/eslint-plugin-query/recommended',
       ],
-      rules: {
-        'tailwindcss/no-custom-classname': 'off',
-      },
+      // rules: { },
     },
   ],
 };

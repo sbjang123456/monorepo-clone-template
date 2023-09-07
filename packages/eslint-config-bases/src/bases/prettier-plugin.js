@@ -1,5 +1,5 @@
 /**
- * prettier 를 사용하는 프로젝트를 위한 기본 사용자 정의 설정
+ * Custom config base for projects using prettier.
  */
 
 const { getPrettierConfig } = require('../helpers');

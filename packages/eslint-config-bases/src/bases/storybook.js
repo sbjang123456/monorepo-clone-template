@@ -1,5 +1,5 @@
 /**
- * storybook 을 사용하는 프로젝트를 위한 기본 사용자 정의 설정
+ * Opinionated config base for projects using storybook.
  */
 
 const storybookPatterns = {
@@ -14,27 +14,10 @@ module.exports = {
   },
   overrides: [
     {
-      // Perf: 성능 향상을 위해 storybook(stories) 파일에 대해서만 활성화
+      // For performance run storybook/recommended on test files, not regular code
       files: storybookPatterns.files,
       extends: ['plugin:storybook/recommended'],
-      rules: {
-        '@typescript-eslint/naming-convention': [
-          'warn',
-          {
-            selector: 'variable',
-            format: ['camelCase', 'PascalCase'],
-          },
-          {
-            selector: ['function'],
-            format: ['camelCase', 'PascalCase'],
-          },
-          {
-            selector: 'parameter',
-            format: ['camelCase', 'PascalCase'],
-            leadingUnderscore: 'allow',
-          },
-        ],
-      },
+      rules: {},
     },
   ],
 };
