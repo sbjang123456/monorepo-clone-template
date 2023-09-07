@@ -1,5 +1,5 @@
 /**
- * playwright 를 사용하는 프로젝트를 위한 기본 사용자 정의 설정
+ * Opinionated config base for projects using playwright.
  */
 
 const playwrightPatterns = {
@@ -9,7 +9,7 @@ const playwrightPatterns = {
 module.exports = {
   overrides: [
     {
-      // Perf: 성능 향상을 위해 e2e 테스트 파일에 대해서만 활성화
+      // To ensure best performance enable only on e2e test files
       files: playwrightPatterns.files,
       // @see https://github.com/playwright-community/eslint-plugin-playwright
       extends: ['plugin:playwright/recommended'],

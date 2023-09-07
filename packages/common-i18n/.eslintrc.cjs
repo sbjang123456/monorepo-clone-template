@@ -8,6 +8,7 @@ const {
 
 module.exports = {
   root: true,
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     tsconfigRootDir: __dirname,
     project: 'tsconfig.json',
@@ -16,7 +17,7 @@ module.exports = {
   extends: [
     '@sbjang123456/eslint-config-bases/typescript',
     // Apply prettier and disable incompatible rules
-    '@sbjang123456/eslint-config-bases/prettier',
+    '@sbjang123456/eslint-config-bases/prettier-plugin',
   ],
   rules: {
     // optional overrides per project

@@ -1,5 +1,5 @@
 /**
- * regexp 를 사용하는 프로젝트를 위한 기본 사용자 정의 설정
+ * Custom config base for projects that wants to enable regexp rules.
  */
 
 const regexpPatterns = {
@@ -11,6 +11,7 @@ module.exports = {
   extends: ['plugin:regexp/recommended'],
   overrides: [
     {
+      // To ensure best performance enable only on e2e test files
       files: regexpPatterns.files,
       extends: ['plugin:regexp/recommended'],
       rules: {

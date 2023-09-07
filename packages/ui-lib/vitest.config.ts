@@ -16,8 +16,14 @@ export default defineConfig({
     environment: 'happy-dom',
     setupFiles: './config/test/setupVitest.ts',
     passWithNoTests: true,
+    /*
+    deps: {
+      experimentalOptimizer: {
+        enabled: true,
+      },
+    }, */
     cache: {
-      dir: '../../.cache/vitest/core-lib',
+      dir: '../../.cache/vitest/ui-lib',
     },
     coverage: {
       provider: 'v8',
@@ -25,7 +31,7 @@ export default defineConfig({
       extension: ['js', 'jsx', 'ts', 'tsx'],
       all: true,
     },
-    // jest 의 mocks 모방
+    // To mimic Jest behaviour regarding mocks.
     // @link https://vitest.dev/config/#clearmocks
     clearMocks: true,
     mockReset: true,

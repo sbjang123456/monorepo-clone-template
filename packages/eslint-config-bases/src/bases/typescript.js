@@ -1,10 +1,16 @@
 /**
- * typescript / javascript 를 사용하는 프로젝트를 위한 기본 사용자 정의 설정
+ * Custom config base for projects using typescript / javascript.
  */
+
+// Allow to pass an env to check cycles, defaults to 2 (lint time+++)
+// @see https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md
+// @see https://medium.com/@steven-lemon182/are-typescript-barrel-files-an-anti-pattern-72a713004250
+const checkCycles = process.env?.ESLINT_IMPORT_NO_CYCLE === 'true';
 
 module.exports = {
   env: {
     es6: true,
+    browser: true,
     node: true,
   },
   parser: '@typescript-eslint/parser',
@@ -13,11 +19,14 @@ module.exports = {
       jsx: true,
       globalReturn: false,
     },
-    ecmaVersion: 2020,
+    ecmaVersion: 'latest',
     project: ['tsconfig.json'],
     sourceType: 'module',
   },
   settings: {
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx', '.mts'],
+    },
     'import/resolver': {
       typescript: {},
     },
@@ -26,12 +35,13 @@ module.exports = {
     'eslint:recommended',
     'plugin:import/recommended',
     'plugin:import/typescript',
-    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended-type-checked',
+    'plugin:@typescript-eslint/stylistic-type-checked',
   ],
   rules: {
-    // https://medium.com/@steven-lemon182/are-typescript-barrel-files-an-anti-pattern-72a713004250
-    // 'import/no-cycle': 2,
-    // 'import/no-duplicates' 사용.
+    // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md
+    ...(checkCycles ? { 'import/no-cycle': 2 } : {}),
+    // will use 'import/no-duplicates'.
     'no-duplicate-imports': 'off',
     'spaced-comment': [
       'error',
@@ -51,8 +61,8 @@ module.exports = {
     'linebreak-style': ['error', 'unix'],
     'no-empty-function': 'off',
     'import/default': ['error'],
-    // Slow: https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/namespace.md
-    'import/namespace': 'off', // ['error'] If you want the extra check (typechecks will spot most issues already)
+    // Caution this rule is slow https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/namespace.md
+    'import/namespace': 'off', // ['error'] If you want the extra check (typechecking will spot most issues already)
     // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-duplicates.md
     'import/no-duplicates': [
       'error',
@@ -75,7 +85,6 @@ module.exports = {
         alphabetize: { order: 'asc', caseInsensitive: true },
       },
     ],
-    '@typescript-eslint/ban-tslint-comment': ['error'],
     '@typescript-eslint/ban-ts-comment': [
       'error',
       {
@@ -100,88 +109,68 @@ module.exports = {
       'error',
       { prefer: 'type-imports', fixStyle: 'inline-type-imports' },
     ],
-    '@typescript-eslint/naming-convention': [
+    '@typescript-eslint/no-import-type-side-effects': 'error',
+    '@typescript-eslint/consistent-type-definitions': 'off',
+    '@typescript-eslint/unbound-method': ['error', { ignoreStatic: true }],
+    '@typescript-eslint/restrict-template-expressions': [
       'error',
       {
-        selector: 'default',
-        format: ['camelCase'],
-        leadingUnderscore: 'forbid',
-        trailingUnderscore: 'forbid',
+        allowNumber: true,
+        allowBoolean: true,
+        allowAny: true,
+        allowNever: true,
+        allowNullish: true,
       },
+    ],
+    '@typescript-eslint/no-misused-promises': [
+      'error',
       {
-        selector: 'variable',
-        format: ['camelCase'],
-        leadingUnderscore: 'allow',
-      },
-      {
-        selector: ['function'],
-        format: ['camelCase'],
-      },
-      {
-        selector: 'parameter',
-        format: ['camelCase'],
-        leadingUnderscore: 'allow',
-      },
-      {
-        selector: 'class',
-        format: ['PascalCase'],
-      },
-      {
-        selector: 'classProperty',
-        format: ['camelCase'],
-        leadingUnderscore: 'allow',
-      },
-      {
-        selector: 'objectLiteralProperty',
-        format: ['camelCase', 'snake_case', 'UPPER_CASE', 'PascalCase'],
-        leadingUnderscore: 'allowSingleOrDouble',
-        trailingUnderscore: 'allowSingleOrDouble',
-      },
-      {
-        selector: ['typeAlias', 'interface'],
-        format: ['PascalCase'],
-      },
-      {
-        selector: ['typeProperty'],
-        format: ['camelCase'],
-        leadingUnderscore: 'allowDouble',
-      },
-      {
-        selector: ['typeParameter'],
-        format: ['PascalCase'],
+        checksVoidReturn: {
+          arguments: false,
+          attributes: false,
+        },
       },
     ],
   },
   overrides: [
     {
+      files: ['*.d.ts'],
+      rules: {
+        '@typescript-eslint/no-import-type-side-effects': 'off',
+        '@typescript-eslint/no-explicit-any': 'off',
+      },
+    },
+    {
       files: ['*.mjs'],
+      extends: ['plugin:@typescript-eslint/disable-type-checked'],
       parserOptions: {
         ecmaVersion: 'latest',
         sourceType: 'module',
       },
       rules: {
-        '@typescript-eslint/naming-convention': 'off',
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/consistent-type-exports': 'off',
         '@typescript-eslint/consistent-type-imports': 'off',
+        '@typescript-eslint/no-unsafe-call': 'off',
+        '@typescript-eslint/no-unsafe-member-access': 'off',
+        '@typescript-eslint/no-unsafe-return': 'off',
       },
     },
     {
-      // commonjs or assumed
+      // javascript commonjs
       files: ['*.js', '*.cjs'],
+      extends: ['plugin:@typescript-eslint/disable-type-checked'],
       parser: 'espree',
       parserOptions: {
-        ecmaVersion: 2020,
+        ecmaVersion: 'latest',
       },
       rules: {
-        '@typescript-eslint/naming-convention': 'off',
         '@typescript-eslint/ban-ts-comment': 'off',
         '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/no-var-requires': 'off',
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/consistent-type-exports': 'off',
         '@typescript-eslint/consistent-type-imports': 'off',
-        'import/order': 'off',
       },
     },
   ],
