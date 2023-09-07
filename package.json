@@ -72,7 +72,7 @@
     "rimraf": "5.0.1",
     "shell-quote": "1.8.1",
     "syncpack": "9.8.6",
-    "typescript": "5.0.4"
+    "typescript": "5.2.2"
   },
   "engines": {
     "node": "^14.18.3 || >=16.13.0",
