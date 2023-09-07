@@ -21,6 +21,7 @@
   "scripts": {
     "check:install": "yarn dlx @yarnpkg/doctor@3.1.4 .",
     "clean:global-cache": "rimraf ./.cache",
+    "clean:turbo": "rimraf --glob '**/.turbo'",
     "deps:check": "npx npm-check-updates@latest --configFileName ncurc.yml --workspaces --root --mergeConfig",
     "deps:update": "npx npm-check-updates@latest --configFileName ncurc.yml -u --workspaces --root --mergeConfig",
     "g:build": "yarn workspaces foreach -A -p --topological-dev -v run build",
@@ -39,6 +40,7 @@
     "g:test-unit": "yarn workspaces foreach -A -tv run test-unit",
     "g:test-unit-jest": "yarn workspaces foreach -A -tv run test-unit-jest",
     "g:typecheck": "yarn workspaces foreach -A -tv run typecheck",
+    "g:turbo": "turbo",
     "install:playwright": "playwright install",
     "nuke:node_modules": "rimraf --glob '**/node_modules'",
     "postinstall": "is-ci || yarn husky install"
@@ -63,6 +65,7 @@
     "rimraf": "5.0.1",
     "shell-quote": "1.8.1",
     "syncpack": "11.2.1",
+    "turbo": "1.10.13",
     "typescript": "5.2.2"
   },
   "engines": {
