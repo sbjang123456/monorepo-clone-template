@@ -76,4 +76,4 @@ jobs:
       # Test storybook build on packages that have changed (--include & --since)
       - name: 🧐 Run storybook build for changed packages
         run: |
-          yarn workspaces foreach -tv --exclude '*-app' --since=origin/main run build-storybook
+          yarn workspaces foreach -A -tv --exclude '*-app' run build-storybook
