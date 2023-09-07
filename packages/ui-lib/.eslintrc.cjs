@@ -7,20 +7,21 @@ const {
 
 module.exports = {
   root: true,
-  // parser: '@typescript-eslint/parser',
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     tsconfigRootDir: __dirname,
-    project: 'tsconfig.json',
+    // project: 'tsconfig.json',
   },
   ignorePatterns: [...getDefaultIgnorePatterns(), '/storybook-static'],
   extends: [
     '@sbjang123456/eslint-config-bases/typescript',
     '@sbjang123456/eslint-config-bases/regexp',
+    '@sbjang123456/eslint-config-bases/sonar',
     '@sbjang123456/eslint-config-bases/jest',
     '@sbjang123456/eslint-config-bases/rtl',
     '@sbjang123456/eslint-config-bases/storybook',
     '@sbjang123456/eslint-config-bases/react',
-    '@sbjang123456/eslint-config-bases/prettier',
+    '@sbjang123456/eslint-config-bases/prettier-plugin',
   ],
   rules: {
     // optional overrides per project

@@ -5,7 +5,12 @@ import { defineConfig } from 'vitest/config';
 const testFiles = ['./src/**/*.test.{js,jsx,ts,tsx}'];
 
 export default defineConfig({
-  plugins: [react(), tsconfigPaths()],
+  plugins: [
+    tsconfigPaths(),
+    react({
+      // fastRefresh: false,
+    }),
+  ],
   test: {
     globals: true,
     environment: 'happy-dom',
@@ -15,9 +20,10 @@ export default defineConfig({
       dir: '../../.cache/vitest/core-lib',
     },
     coverage: {
-      provider: 'istanbul',
+      provider: 'v8',
       reporter: ['text', 'clover'],
       extension: ['js', 'jsx', 'ts', 'tsx'],
+      all: true,
     },
     // jest 의 mocks 모방
     // @link https://vitest.dev/config/#clearmocks
