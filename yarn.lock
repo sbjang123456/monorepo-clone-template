@@ -3200,7 +3200,7 @@ __metadata:
   dependencies:
     "@sbjang123456/eslint-config-bases": "workspace:^"
     "@types/jest": 29.5.1
-    "@types/node": 18.16.8
+    "@types/node": 18.17.14
     cross-env: 7.0.3
     eslint: 8.40.0
     prettier: 2.8.8
@@ -3217,7 +3217,7 @@ __metadata:
     "@testing-library/react": 14.0.0
     "@testing-library/user-event": 14.4.3
     "@types/jest": 29.5.1
-    "@types/node": 18.16.8
+    "@types/node": 18.17.14
     "@types/react": 18.2.6
     "@types/react-dom": 18.2.4
     "@vitejs/plugin-react": 4.0.4
@@ -3254,7 +3254,7 @@ __metadata:
     "@testing-library/jest-dom": 5.16.5
     "@testing-library/react": 14.0.0
     "@types/jest": 29.5.1
-    "@types/node": 18.16.8
+    "@types/node": 18.17.14
     "@types/prettier": 2.7.3
     "@types/react": 18.2.6
     "@types/react-dom": 18.2.4
@@ -3317,7 +3317,7 @@ __metadata:
     "@testing-library/jest-dom": 5.16.5
     "@testing-library/react": 14.0.0
     "@types/jest": 29.5.1
-    "@types/node": 18.16.8
+    "@types/node": 18.17.14
     "@types/react": 18.2.6
     "@types/react-dom": 18.2.4
     autoprefixer: 10.4.14
@@ -4793,10 +4793,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.16.8":
-  version: 18.16.8
-  resolution: "@types/node@npm:18.16.8"
-  checksum: d2ec9b61abd260b0fa1e33e4eca8f0089ebb6f6ec1ad2f036a4d01af11dba4f1dbff95b2a1f5dbe9eab3a6f38ed4bd8bf95eb2de9ad96b1caa1f67671e623c1d
+"@types/node@npm:18.17.14":
+  version: 18.17.14
+  resolution: "@types/node@npm:18.17.14"
+  checksum: f96ce1e588426a26cf82440193084f8bbab47bfb3c2e668cf174095f99ce808a20654b2137448c7e88cfd7b6c2b8521ffb6f714f521b3502ac595a0df0bff679
   languageName: node
   linkType: hard
 
