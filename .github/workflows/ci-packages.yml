@@ -54,24 +54,24 @@ jobs:
       # Typecheck packages that have changed + packages and apps that depends on them (--from & --since)
       # That allows to see if we're introducing "surface" regressions (just the types)
       - name: 🕵️ Typecheck
-        run: yarn workspaces foreach -tv --from '@sbjang123456/*' --exclude '*-app' --since=origin/main --recursive run typecheck
+        run: yarn workspaces foreach -tv --from '@sbjang123456/*' --exclude '*-app'  --recursive run typecheck
 
       # Lint packages that have changed (--include & --since)
       - name: 🔬 Linter
         run: |
-          yarn workspaces foreach -tv --include '@sbjang123456/*' --exclude '*-app' --since=origin/main --recursive run lint
-          yarn workspaces foreach -tv --include '@sbjang123456/*' --exclude '*-app' --since=origin/main --recursive run lint-styles
+          yarn workspaces foreach -tv --include '@sbjang123456/*' --exclude '*-app'  --recursive run lint
+          yarn workspaces foreach -tv --include '@sbjang123456/*' --exclude '*-app'  --recursive run lint-styles
 
       # Test packages that have changed (--include & --since)
       - name: 🧪 Unit tests changed packages
         run: |
-          yarn workspaces foreach -tv --include '@sbjang123456/*' --exclude '*-app' --since=origin/main --recursive run test-unit
+          yarn workspaces foreach -tv --include '@sbjang123456/*' --exclude '*-app'  --recursive run test-unit
       # to debug cache issues: ls ${{ github.workspace }}/.cache
       # Build packages that have changed (--include & --since), assuming that
       # apps build are done already. Otherwise --from & --since
       - name: 🏗 Run build for changed packages
         run: |
-          yarn workspaces foreach -tv --include '@sbjang123456/*' --exclude '*-app' --since=origin/main run build
+          yarn workspaces foreach -tv --include '@sbjang123456/*' --exclude '*-app'  run build
 
       # Test storybook build on packages that have changed (--include & --since)
       - name: 🧐 Run storybook build for changed packages
