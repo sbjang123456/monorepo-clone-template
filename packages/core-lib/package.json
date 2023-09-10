@@ -46,7 +46,7 @@
     "@vitest/coverage-v8": "0.34.3",
     "@vitest/ui": "0.34.3",
     "cross-env": "7.0.3",
-    "eslint": "8.48.0",
+    "eslint": "8.49.0",
     "happy-dom": "11.0.2",
     "jest": "29.6.4",
     "jest-environment-jsdom": "29.6.4",
