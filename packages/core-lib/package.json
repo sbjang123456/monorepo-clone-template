@@ -1,6 +1,6 @@
 {
   "name": "@sbjang123456/core-lib",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "module": "dist/index.esm.js",
   "sideEffects": false,
