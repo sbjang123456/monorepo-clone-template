@@ -1,8 +1,8 @@
 {
   "folders": [
     {
-      "name": "nextjs-app",
-      "path": "apps/nextjs-app"
+      "name": "blog-app",
+      "path": "apps/blog-app"
     },
     {
       "name": "common-i18n",
@@ -50,18 +50,18 @@
     "eslint.alwaysShowStatus": true,
     // https://github.com/Microsoft/vscode-eslint#mono-repository-setup
     "eslint.workingDirectories": [
-      "./apps/nextjs-app",
+      "./apps/blog-app",
       "./packages/common-i18n",
       "./packages/core-lib",
       "./packages/eslint-config-bases",
       "./packages/ui-lib"
     ],
     "jest.disabledWorkspaceFolders": [
-      "nextjs-app",
+      "blog-app",
       "eslint-config-bases",
       "common-i18n",
       "ui-lib",
-      "core-lib",
+      "core-lib"
     ]
   }
 }
