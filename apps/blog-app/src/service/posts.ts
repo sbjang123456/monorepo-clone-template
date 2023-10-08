@@ -1,5 +1,6 @@
 import { readFile } from 'fs/promises';
 import path from 'path';
+import { metadata } from './../app/layout';
 
 export type Post = {
   title: string;
@@ -8,6 +9,10 @@ export type Post = {
   category: string;
   path: string;
   featured: boolean;
+};
+
+export type PostData = Post & {
+  content: string;
 };
 
 export async function getAllPosts(): Promise<Post[]> {
@@ -23,4 +28,18 @@ export async function getFeaturedPosts(): Promise<Post[]> {
 
 export async function getNonFeaturedPosts(): Promise<Post[]> {
   return getAllPosts().then((posts) => posts.filter((post) => !post.featured));
+}
+
+export async function getPostData(fileName: string): Promise<PostData> {
+  const filePath = path.join(process.cwd(), 'data', 'posts', `${fileName}.md`);
+  const metadata = await getAllPosts().then((posts) =>
+    posts.find((post) => post.path === fileName)
+  );
+
+  if (!metadata) {
+    throw new Error(`No metadata found for ${fileName}`);
+  }
+
+  const content = await readFile(filePath, 'utf-8');
+  return { ...metadata, content };
 }
