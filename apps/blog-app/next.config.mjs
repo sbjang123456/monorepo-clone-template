@@ -20,6 +20,17 @@ let nextConfig = {
   eslint: {
     ignoreDuringBuilds: !NEXTJS_IGNORE_ESLINT,
   },
+
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '*',
+        port: '',
+        pathname: '**',
+      },
+    ],
+  },
 };
 
 if (process.env.ANALYZE === 'true') {
