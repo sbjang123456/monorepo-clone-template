@@ -1,4 +1,10 @@
+import type { Metadata } from 'next';
 import Hero from 'components/Hero';
+
+export const metadata: Metadata = {
+  title: 'About Me',
+  description: 'JangSu 커리어 소개',
+};
 
 const TITLE_CLASS = 'm-2 text-2xl font-bold text-gray-800';
 
