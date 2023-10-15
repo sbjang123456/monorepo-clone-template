@@ -1,5 +1,0 @@
----
-"blog-app": major
----
-
-Release
