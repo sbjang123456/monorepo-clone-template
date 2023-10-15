@@ -3695,7 +3695,7 @@ __metadata:
     cross-env: "npm:7.0.3"
     dequal: "npm:^2.0.3"
     eslint: "npm:8.51.0"
-    happy-dom: "npm:12.9.0"
+    happy-dom: "npm:12.9.1"
     jest: "npm:29.7.0"
     jest-environment-jsdom: "npm:29.7.0"
     npm-run-all: "npm:4.1.5"
@@ -10200,9 +10200,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"happy-dom@npm:12.9.0":
-  version: 12.9.0
-  resolution: "happy-dom@npm:12.9.0"
+"happy-dom@npm:12.9.1":
+  version: 12.9.1
+  resolution: "happy-dom@npm:12.9.1"
   dependencies:
     css.escape: "npm:^1.5.1"
     entities: "npm:^4.5.0"
@@ -10210,7 +10210,7 @@ __metadata:
     webidl-conversions: "npm:^7.0.0"
     whatwg-encoding: "npm:^2.0.0"
     whatwg-mimetype: "npm:^3.0.0"
-  checksum: 64d86c9eff136850f51b8afd3aba9f42b46f39d2411b742d61dcdc86bb89592305cee1d1746195a447ee868a04d1740273342cc48a8ead6fe97349f85a52b947
+  checksum: f2e0a7f2ef20689710e51cfeaba886170f98791f5721d1bfd8e65e9829c4e1596ad7ae7a125b8e2d4100f40c35127310c7c40f0510445f01e44ac6f4fec8dbfa
   languageName: node
   linkType: hard
 
