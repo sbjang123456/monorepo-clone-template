@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import AdjacentPostCard from 'components/AdjacentPostCard';
 import PostContent from 'components/PostContent';
-import { getPostData } from 'service/posts';
+import { getAllPosts, getPostData } from 'service/posts';
 
 type Props = {
   params: {
@@ -36,4 +36,9 @@ export default async function page({ params: { slug } }: Props) {
       </section>
     </article>
   );
+}
+
+export async function generateStaticParams() {
+  const posts = await getAllPosts();
+  return posts.map((post) => ({ slug: post.path }));
 }
