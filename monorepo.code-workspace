@@ -5,6 +5,10 @@
       "path": "apps/blog-app"
     },
     {
+      "name": "instagram-app",
+      "path": "apps/instagram-app"
+    },
+    {
       "name": "common-i18n",
       "path": "packages/common-i18n"
     },
@@ -51,6 +55,7 @@
     // https://github.com/Microsoft/vscode-eslint#mono-repository-setup
     "eslint.workingDirectories": [
       "./apps/blog-app",
+      "./apps/instagram-app",
       "./packages/common-i18n",
       "./packages/core-lib",
       "./packages/eslint-config-bases",
@@ -58,6 +63,7 @@
     ],
     "jest.disabledWorkspaceFolders": [
       "blog-app",
+      "instagram-app",
       "eslint-config-bases",
       "common-i18n",
       "ui-lib",
