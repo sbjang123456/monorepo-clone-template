@@ -77,12 +77,13 @@ jobs:
       # - name: 🧪 Unit tests
       #   run: yarn --top-level run turbo test-unit
 
-      - name: 🏗 Build web-app
-        run: yarn --top-level run turbo build
-        env:
-          NEXT_BUILD_ENV_ESLINT: false
-          NEXT_BUILD_ENV_TYPECHECK: false
-          NEXT_BUILD_ENV_SOURCEMAPS: false
+      # build 안해!
+      # - name: 🏗 Build web-app
+      #   run: yarn --top-level run turbo build
+      #   env:
+      #     NEXT_BUILD_ENV_ESLINT: false
+      #     NEXT_BUILD_ENV_TYPECHECK: false
+      #     NEXT_BUILD_ENV_SOURCEMAPS: false
 
       - name: 🛟 Check ecmascript checks for build files
         run: yarn check-dist
