@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useSession, signIn, signOut } from 'next-auth/react';
 import React from 'react';
 import ColorButton from 'components/ui/ColorButton';
 import {
@@ -32,6 +33,8 @@ const menu = [
 
 export default function Navbar() {
   const pathname = usePathname();
+  const { data: session } = useSession();
+
   return (
     <div className="flex items-center justify-between px-6">
       <Link href="/">
@@ -46,12 +49,21 @@ export default function Navbar() {
               </Link>
             </li>
           ))}
-          <ColorButton
-            text="Sign in"
-            onClick={() => {
-              console.log('s');
-            }}
-          />
+          {session ? (
+            <ColorButton
+              text="Sign out"
+              onClick={() => {
+                void signOut();
+              }}
+            />
+          ) : (
+            <ColorButton
+              text="Sign in"
+              onClick={() => {
+                void signIn();
+              }}
+            />
+          )}
         </ul>
       </nav>
     </div>
