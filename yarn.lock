@@ -6479,12 +6479,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-syntax-highlighter@npm:15.5.8":
-  version: 15.5.8
-  resolution: "@types/react-syntax-highlighter@npm:15.5.8"
+"@types/react-syntax-highlighter@npm:15.5.9":
+  version: 15.5.9
+  resolution: "@types/react-syntax-highlighter@npm:15.5.9"
   dependencies:
     "@types/react": "npm:*"
-  checksum: 713a8e91ff55c6f9ded21580c0b5c12b07005ad3e2b4b9995355371df2b3d686b11ef0123b6a11d79cc411f8898f621a82df4a4a76f55a3b60be194dc59256a9
+  checksum: be3a6b9ba0ea5961777c3333a69967b9bdb1e8fbdd6556601a405ff2c9200de545f197b3e879cddd9ee7bdfeaeb1d861a4349cdec30a093446770e6a1458a583
   languageName: node
   linkType: hard
 
@@ -7879,7 +7879,7 @@ __metadata:
     "@types/nodemailer": "npm:6.4.13"
     "@types/react": "npm:18.2.28"
     "@types/react-dom": "npm:18.2.13"
-    "@types/react-syntax-highlighter": "npm:15.5.8"
+    "@types/react-syntax-highlighter": "npm:15.5.9"
     autoprefixer: "npm:10.4.16"
     cross-env: "npm:7.0.3"
     es-check: "npm:7.1.1"
