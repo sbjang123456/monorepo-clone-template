@@ -4637,7 +4637,7 @@ __metadata:
   dependencies:
     "@sbjang123456/eslint-config-bases": "workspace:^"
     "@types/jest": "npm:29.5.6"
-    "@types/node": "npm:20.8.6"
+    "@types/node": "npm:20.8.9"
     cross-env: "npm:7.0.3"
     eslint: "npm:8.51.0"
     prettier: "npm:3.0.3"
@@ -4655,7 +4655,7 @@ __metadata:
     "@testing-library/react": "npm:14.0.0"
     "@testing-library/user-event": "npm:14.5.1"
     "@types/jest": "npm:29.5.6"
-    "@types/node": "npm:20.8.6"
+    "@types/node": "npm:20.8.9"
     "@types/react": "npm:18.2.28"
     "@types/react-dom": "npm:18.2.13"
     "@vitejs/plugin-react": "npm:4.1.0"
@@ -4693,7 +4693,7 @@ __metadata:
     "@testing-library/jest-dom": "npm:6.1.4"
     "@testing-library/react": "npm:14.0.0"
     "@types/jest": "npm:29.5.6"
-    "@types/node": "npm:20.8.6"
+    "@types/node": "npm:20.8.9"
     "@types/prettier": "npm:2.7.3"
     "@types/react": "npm:18.2.28"
     "@types/react-dom": "npm:18.2.13"
@@ -4769,7 +4769,7 @@ __metadata:
     "@testing-library/react": "npm:14.0.0"
     "@testing-library/user-event": "npm:14.5.1"
     "@types/jest": "npm:29.5.6"
-    "@types/node": "npm:20.8.6"
+    "@types/node": "npm:20.8.9"
     "@types/react": "npm:18.2.28"
     "@types/react-dom": "npm:18.2.13"
     "@vitest/coverage-v8": "npm:0.34.6"
@@ -6357,12 +6357,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:20.8.6":
-  version: 20.8.6
-  resolution: "@types/node@npm:20.8.6"
+"@types/node@npm:*, @types/node@npm:20.8.9":
+  version: 20.8.9
+  resolution: "@types/node@npm:20.8.9"
   dependencies:
-    undici-types: "npm:~5.25.1"
-  checksum: d0a2bef7e041553540291091d171b6aa7e5e647e4c2d5092e71d5d69bfb272625cd023d5208b91955a78780dac6fdea591962576cfd7a7a94fabbc707fadf7a1
+    undici-types: "npm:~5.26.4"
+  checksum: 6fb5604ac087c8be9aeb9ee1413fae2e691c603c9a691bd722e113597b883f21e8380a44d114ab894b435a491bfc939c8478cd57bcf890c585b961343b124964
   languageName: node
   linkType: hard
 
@@ -7875,7 +7875,7 @@ __metadata:
   dependencies:
     "@next/bundle-analyzer": "npm:13.5.4"
     "@tailwindcss/typography": "npm:0.5.10"
-    "@types/node": "npm:20.8.6"
+    "@types/node": "npm:20.8.9"
     "@types/nodemailer": "npm:6.4.13"
     "@types/react": "npm:18.2.28"
     "@types/react-dom": "npm:18.2.13"
@@ -12500,7 +12500,7 @@ __metadata:
   dependencies:
     "@next/bundle-analyzer": "npm:13.5.4"
     "@sanity/client": "npm:6.7.0"
-    "@types/node": "npm:20.8.6"
+    "@types/node": "npm:20.8.9"
     "@types/react": "npm:18.2.28"
     "@types/react-dom": "npm:18.2.13"
     autoprefixer: "npm:10.4.16"
@@ -20809,10 +20809,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici-types@npm:~5.25.1":
-  version: 5.25.3
-  resolution: "undici-types@npm:5.25.3"
-  checksum: 60a47c6db451c00d27186d86a41fbd9677fa1f6d1a5350bff342c3985bd79fc3f5a638ebf56bbce21df46c701a687db43b3fbd588e1726e58047cea14d182fef
+"undici-types@npm:~5.26.4":
+  version: 5.26.5
+  resolution: "undici-types@npm:5.26.5"
+  checksum: bb673d7876c2d411b6eb6c560e0c571eef4a01c1c19925175d16e3a30c4c428181fb8d7ae802a261f283e4166a0ac435e2f505743aa9e45d893f9a3df017b501
   languageName: node
   linkType: hard
 
