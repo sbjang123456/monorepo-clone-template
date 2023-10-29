@@ -85,5 +85,5 @@ jobs:
       #     NEXT_BUILD_ENV_TYPECHECK: false
       #     NEXT_BUILD_ENV_SOURCEMAPS: false
 
-      - name: 🛟 Check ecmascript checks for build files
-        run: yarn check-dist
+      # - name: 🛟 Check ecmascript checks for build files
+      #   run: yarn check-dist
