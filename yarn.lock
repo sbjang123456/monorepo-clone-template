@@ -11884,16 +11884,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:^13.19.0":
-  version: 13.20.0
-  resolution: "globals@npm:13.20.0"
-  dependencies:
-    type-fest: "npm:^0.20.2"
-  checksum: 9a028f136f1e7a3574689f430f7d57faa0d699c4c7e92ade00b02882a892be31c314d50dff07b48e607283013117bb8a997406d03a1f7ab4a33a005eb16efd6c
-  languageName: node
-  linkType: hard
-
-"globals@npm:^13.6.0":
+"globals@npm:^13.19.0, globals@npm:^13.6.0":
   version: 13.23.0
   resolution: "globals@npm:13.23.0"
   dependencies:
