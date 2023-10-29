@@ -12802,6 +12802,7 @@ __metadata:
     postcss: "npm:8.4.31"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
+    react-icons: "npm:4.11.0"
     tailwindcss: "npm:3.3.3"
     typescript: "npm:5.2.2"
   languageName: unknown
