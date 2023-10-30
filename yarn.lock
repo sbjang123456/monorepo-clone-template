@@ -4424,21 +4424,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/icons@npm:2.1.0":
-  version: 2.1.0
-  resolution: "@sanity/icons@npm:2.1.0"
+"@sanity/icons@npm:2.6.0, @sanity/icons@npm:^2.2.2, @sanity/icons@npm:^2.4.0, @sanity/icons@npm:^2.4.1":
+  version: 2.6.0
+  resolution: "@sanity/icons@npm:2.6.0"
   peerDependencies:
     react: ^18
-  checksum: 73be9527a0c2cd900111ed787e86d1c6686df6e84592ac39e2b9e9e353a7b91462b6a477c4f4c23eeabb73007557bdd0b316c87ee8faff8ca8579bf52d8ef18d
-  languageName: node
-  linkType: hard
-
-"@sanity/icons@npm:^2.2.2, @sanity/icons@npm:^2.4.0, @sanity/icons@npm:^2.4.1":
-  version: 2.5.0
-  resolution: "@sanity/icons@npm:2.5.0"
-  peerDependencies:
-    react: ^18
-  checksum: dd2c15ee10bc4caa2ceb7b53eac074b223ee0cf49ef64c041668e7410290c4787f0cefb4d709635d12843a0bf6fa5704312b2db210f45a79d7866971d8038b56
+  checksum: c43b84c3a5d0728846640703dee6b0c4aa699f30bf721bc35827d96a9992323aecfa41ff5c856750ba57091925ffd5bed5e9621dd2a0c9cfa9c86013b9487609
   languageName: node
   linkType: hard
 
@@ -12447,7 +12438,7 @@ __metadata:
   resolution: "instagram-clone@workspace:apps/instagram-sanity-studio"
   dependencies:
     "@sanity/eslint-config-studio": "npm:3.0.1"
-    "@sanity/icons": "npm:2.1.0"
+    "@sanity/icons": "npm:2.6.0"
     "@sanity/ui": "npm:1.2.0"
     "@sanity/vision": "npm:3.18.0"
     "@types/react": "npm:18.2.33"
