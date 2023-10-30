@@ -6556,14 +6556,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/styled-components@npm:5.1.26":
-  version: 5.1.26
-  resolution: "@types/styled-components@npm:5.1.26"
+"@types/styled-components@npm:5.1.29":
+  version: 5.1.29
+  resolution: "@types/styled-components@npm:5.1.29"
   dependencies:
     "@types/hoist-non-react-statics": "npm:*"
     "@types/react": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 61c53b035d82bbf6071d3f15348f2e9a43af8c28c630ab472d153277082a578aa60116ddc67bcfea1340d93577d5758c359f0a4d4d1291a419cebb3f8677b63e
+  checksum: 5283b4e05e815103672d2b000ec90fc9d459a5c1a28086eb046ec701d2ba482ace756906d9ce546cf96b3a3a0f142e3342b7f80bcc416d487df6bcc5acacfde7
   languageName: node
   linkType: hard
 
@@ -12451,14 +12451,14 @@ __metadata:
     "@sanity/ui": "npm:1.2.0"
     "@sanity/vision": "npm:3.18.0"
     "@types/react": "npm:18.2.33"
-    "@types/styled-components": "npm:5.1.26"
+    "@types/styled-components": "npm:5.1.29"
     eslint: "npm:8.6.0"
     prettier: "npm:3.0.3"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     react-is: "npm:18.2.0"
     sanity: "npm:3.18.0"
-    styled-components: "npm:5.3.9"
+    styled-components: "npm:5.3.11"
     typescript: "npm:5.1.6"
   languageName: unknown
   linkType: soft
@@ -19620,9 +19620,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"styled-components@npm:5.3.9":
-  version: 5.3.9
-  resolution: "styled-components@npm:5.3.9"
+"styled-components@npm:5.3.11":
+  version: 5.3.11
+  resolution: "styled-components@npm:5.3.11"
   dependencies:
     "@babel/helper-module-imports": "npm:^7.0.0"
     "@babel/traverse": "npm:^7.4.5"
@@ -19638,7 +19638,7 @@ __metadata:
     react: ">= 16.8.0"
     react-dom: ">= 16.8.0"
     react-is: ">= 16.8.0"
-  checksum: 31f681448a20dba91c8fab537b7f1823cf9af8b2c485e10b8d98d97d18ac535ae2642bb0bb8de94a44cbf2df5aabc9a24f830ded44bd1c7f0c17e38a67ab1b54
+  checksum: 90b73479770c5d68e22e6366d210119d7203154a3e49dc828f6f6b4c2d5c077f7548210dfddd0af3cb15b0b63fab3eec8dc995c1734e97a313a9b83ba893668e
   languageName: node
   linkType: hard
 
