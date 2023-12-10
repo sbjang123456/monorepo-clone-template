@@ -24,10 +24,11 @@ export default function RootLayout({
           <header className="sticky top-0 z-10 border-b bg-white">
             <Navbar />
           </header>
-          <main className="w-full flex justify-center bg-neutral-50">
+          <main className="flex w-full justify-center bg-neutral-50">
             <SWRConfigContext>{children}</SWRConfigContext>
           </main>
         </AuthContext>
+        <div id="portal" />
       </body>
     </html>
   );
