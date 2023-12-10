@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { PropagateLoader } from 'react-spinners';
 import useSWR from 'swr';
 import Avatar from 'components/Avatar';
-import ScrollableBar from 'components/ScrollableBar';
+import ScrollableBar from 'components/ui/ScrollableBar';
 import type { DetailUser } from 'model/user';
 
 export default function FollowingBar() {
