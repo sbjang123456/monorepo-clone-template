@@ -4504,7 +4504,7 @@ __metadata:
   dependencies:
     "@sbjang123456/eslint-config-bases": "workspace:^"
     "@types/jest": "npm:29.5.6"
-    "@types/node": "npm:20.8.9"
+    "@types/node": "npm:20.10.6"
     cross-env: "npm:7.0.3"
     eslint: "npm:8.52.0"
     prettier: "npm:3.0.3"
@@ -4522,7 +4522,7 @@ __metadata:
     "@testing-library/react": "npm:14.0.0"
     "@testing-library/user-event": "npm:14.5.1"
     "@types/jest": "npm:29.5.6"
-    "@types/node": "npm:20.8.9"
+    "@types/node": "npm:20.10.6"
     "@types/react": "npm:18.2.33"
     "@types/react-dom": "npm:18.2.14"
     "@vitejs/plugin-react": "npm:4.1.0"
@@ -4560,7 +4560,7 @@ __metadata:
     "@testing-library/jest-dom": "npm:6.1.4"
     "@testing-library/react": "npm:14.0.0"
     "@types/jest": "npm:29.5.6"
-    "@types/node": "npm:20.8.9"
+    "@types/node": "npm:20.10.6"
     "@types/prettier": "npm:2.7.3"
     "@types/react": "npm:18.2.33"
     "@types/react-dom": "npm:18.2.14"
@@ -4636,7 +4636,7 @@ __metadata:
     "@testing-library/react": "npm:14.0.0"
     "@testing-library/user-event": "npm:14.5.1"
     "@types/jest": "npm:29.5.6"
-    "@types/node": "npm:20.8.9"
+    "@types/node": "npm:20.10.6"
     "@types/react": "npm:18.2.33"
     "@types/react-dom": "npm:18.2.14"
     "@vitest/coverage-v8": "npm:0.34.6"
@@ -6229,12 +6229,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:20.8.9":
-  version: 20.8.9
-  resolution: "@types/node@npm:20.8.9"
+"@types/node@npm:*, @types/node@npm:20.10.6":
+  version: 20.10.6
+  resolution: "@types/node@npm:20.10.6"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 6fb5604ac087c8be9aeb9ee1413fae2e691c603c9a691bd722e113597b883f21e8380a44d114ab894b435a491bfc939c8478cd57bcf890c585b961343b124964
+  checksum: 6692ccfa8552ef60c4069fda3c8de726c23e8d403cdf788e3c7efa769987e80fbda5f02723dd857f9de7df24a5fa40b3ed4580ec3c5cbac04eba44cf7b2ab1dc
   languageName: node
   linkType: hard
 
@@ -7727,7 +7727,7 @@ __metadata:
   dependencies:
     "@next/bundle-analyzer": "npm:13.5.6"
     "@tailwindcss/typography": "npm:0.5.10"
-    "@types/node": "npm:20.8.9"
+    "@types/node": "npm:20.10.6"
     "@types/nodemailer": "npm:6.4.13"
     "@types/react": "npm:18.2.33"
     "@types/react-dom": "npm:18.2.14"
@@ -12195,7 +12195,7 @@ __metadata:
   dependencies:
     "@next/bundle-analyzer": "npm:13.5.6"
     "@sanity/client": "npm:6.7.0"
-    "@types/node": "npm:20.8.9"
+    "@types/node": "npm:20.10.6"
     "@types/react": "npm:18.2.33"
     "@types/react-dom": "npm:18.2.14"
     autoprefixer: "npm:10.4.16"
