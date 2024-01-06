@@ -4523,8 +4523,8 @@ __metadata:
     "@testing-library/user-event": "npm:14.5.1"
     "@types/jest": "npm:29.5.6"
     "@types/node": "npm:20.8.9"
-    "@types/react": "npm:18.2.33"
-    "@types/react-dom": "npm:18.2.14"
+    "@types/react": "npm:18.2.47"
+    "@types/react-dom": "npm:18.2.18"
     "@vitejs/plugin-react": "npm:4.1.0"
     "@vitest/coverage-v8": "npm:0.34.6"
     "@vitest/ui": "npm:0.34.6"
@@ -4562,8 +4562,8 @@ __metadata:
     "@types/jest": "npm:29.5.6"
     "@types/node": "npm:20.8.9"
     "@types/prettier": "npm:2.7.3"
-    "@types/react": "npm:18.2.33"
-    "@types/react-dom": "npm:18.2.14"
+    "@types/react": "npm:18.2.47"
+    "@types/react-dom": "npm:18.2.18"
     "@typescript-eslint/eslint-plugin": "npm:^6.7.4"
     "@typescript-eslint/parser": "npm:^6.7.4"
     es-check: "npm:7.1.1"
@@ -4637,8 +4637,8 @@ __metadata:
     "@testing-library/user-event": "npm:14.5.1"
     "@types/jest": "npm:29.5.6"
     "@types/node": "npm:20.8.9"
-    "@types/react": "npm:18.2.33"
-    "@types/react-dom": "npm:18.2.14"
+    "@types/react": "npm:18.2.47"
+    "@types/react-dom": "npm:18.2.18"
     "@vitest/coverage-v8": "npm:0.34.6"
     autoprefixer: "npm:10.4.16"
     cross-env: "npm:7.0.3"
@@ -6326,12 +6326,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:18.2.14, @types/react-dom@npm:^18.0.0":
-  version: 18.2.14
-  resolution: "@types/react-dom@npm:18.2.14"
+"@types/react-dom@npm:18.2.18, @types/react-dom@npm:^18.0.0":
+  version: 18.2.18
+  resolution: "@types/react-dom@npm:18.2.18"
   dependencies:
     "@types/react": "npm:*"
-  checksum: 1f79a7708d038cd651bdb21e01a99c594761bc9a40a565abe98958e1d27facfeb6e9824ddf6ae3504e7a56568f0f3da2380fe52ac18477b5864d2d5cf1386a9e
+  checksum: 74dba11a1b8156f3a763f3fca1fb4ec1dcd349153279b8bf79210024a69f994bf2cf0728198c047f8130c5318420ea56281b0a4ef84c8ae943cd9a0cac705220
   languageName: node
   linkType: hard
 
@@ -6353,14 +6353,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.2.33, @types/react@npm:>=16, @types/react@npm:^18.0.25":
-  version: 18.2.33
-  resolution: "@types/react@npm:18.2.33"
+"@types/react@npm:*, @types/react@npm:18.2.47, @types/react@npm:>=16, @types/react@npm:^18.0.25":
+  version: 18.2.47
+  resolution: "@types/react@npm:18.2.47"
   dependencies:
     "@types/prop-types": "npm:*"
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: d3392785660d78121541403a5d1da57dc79e8ce402769251a626aa06a6886a6aaead868a01ee473661380ddd4ac79743de78853d69f652544da191d435f78afb
+  checksum: e98ea1827fe60636d0f7ce206397159a29fc30613fae43e349e32c10ad3c0b7e0ed2ded2f3239e07bd5a3cba8736b6114ba196acccc39905ca4a06f56a8d2841
   languageName: node
   linkType: hard
 
@@ -7729,8 +7729,8 @@ __metadata:
     "@tailwindcss/typography": "npm:0.5.10"
     "@types/node": "npm:20.8.9"
     "@types/nodemailer": "npm:6.4.13"
-    "@types/react": "npm:18.2.33"
-    "@types/react-dom": "npm:18.2.14"
+    "@types/react": "npm:18.2.47"
+    "@types/react-dom": "npm:18.2.18"
     "@types/react-syntax-highlighter": "npm:15.5.9"
     autoprefixer: "npm:10.4.16"
     cross-env: "npm:7.0.3"
@@ -12196,8 +12196,8 @@ __metadata:
     "@next/bundle-analyzer": "npm:13.5.6"
     "@sanity/client": "npm:6.7.0"
     "@types/node": "npm:20.8.9"
-    "@types/react": "npm:18.2.33"
-    "@types/react-dom": "npm:18.2.14"
+    "@types/react": "npm:18.2.47"
+    "@types/react-dom": "npm:18.2.18"
     autoprefixer: "npm:10.4.16"
     eslint: "npm:8.52.0"
     eslint-config-next: "npm:13.5.6"
@@ -12220,7 +12220,7 @@ __metadata:
     "@sanity/icons": "npm:2.6.0"
     "@sanity/ui": "npm:1.8.3"
     "@sanity/vision": "npm:3.18.1"
-    "@types/react": "npm:18.2.33"
+    "@types/react": "npm:18.2.47"
     "@types/styled-components": "npm:5.1.29"
     eslint: "npm:8.52.0"
     prettier: "npm:3.0.3"
